@@ -3,10 +3,3 @@ spring:
     active: dev
 server:
   port: 8081
-
-----
-spring:
-   profiles:
-   active: test
-server:
-   port: 8082
