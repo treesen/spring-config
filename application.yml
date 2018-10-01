@@ -1,22 +1,14 @@
 spring:
-  profiles: dev
+  profiles: app1
 server:
-  port: 8761
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  port: 8081
 ---
 spring:
-  profiles: config
+  profiles: app2
 server:
   port: 8082
 ---
 spring:
-  profiles: pro
+  profiles: app3
 server:
   port: 8083
