@@ -6,11 +6,15 @@ server:
   port: 8081
 ---
 spring:
+  application:
+    name: app2
   profiles: app2
 server:
   port: 8070
 ---
 spring:
+  application:
+    name: app3
   profiles: app3
 server:
-  port: 8083
+  port: 8071
