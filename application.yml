@@ -18,3 +18,10 @@ spring:
   profiles: app3
 server:
   port: 8071
+---
+spring:
+  application:
+    name: zuul
+  profiles: zuul
+server:
+  port: 8072
