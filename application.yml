@@ -25,3 +25,7 @@ spring:
   profiles: zuul
 server:
   port: 8072
+zuul:
+  ignoredServices: '*'
+  routes:
+    app1: /spring/**
