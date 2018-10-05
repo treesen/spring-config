@@ -14,7 +14,7 @@ server:
 ---
 spring:
   application:
-    name: app3
+    name: app1
   profiles: app3
 server:
   port: 8071
